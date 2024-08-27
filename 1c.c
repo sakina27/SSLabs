@@ -12,7 +12,7 @@ Problem Statement: Create the following types of a files using (i) shell command
 
 int main() {
 
-    if (mknod("home/sakina/Desktop/SSLabs/FifoFile", S_IFIFO, 0) == -1) {
+    if (mknod("/home/sakina/my-repo/FifoFile", S_IFIFO, 0) == -1) {
         perror("Error in creating fifo file");
         return 1;
     }
@@ -20,3 +20,9 @@ int main() {
     printf("FIFO created successfully.\n");
     return 0;
 }
+
+/*Output:
+ *
+ * gcc 1c.c -o 1c
+sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./1c
+FIFO created successfully.*/
