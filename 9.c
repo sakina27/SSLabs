@@ -51,16 +51,17 @@ int main(int argc, char *argv[]) {
 /*Output:
  *
  *
- * sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./9 /home/sakina/my-repo/readFile.txt
-Inode: 2891066
+ *sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ gcc 9.c -o ninth
+sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./ninth readFile.txt
+Inode: 1844854
 Number of hard links: 1
 UID: 1000
 GID: 1000
-Size: 1040 bytes
+Size: 26 bytes
 Block size: 4096 bytes
 Number of blocks: 8
-Time of last access: Tue Aug 27 11:07:31 2024
-Time of last modification: Tue Aug 27 11:07:27 2024
-Time of last change: Tue Aug 27 11:07:27 2024*/
+Time of last access: Tue Aug 27 10:49:58 2024
+Time of last modification: Tue Aug 27 00:28:05 2024
+Time of last change: Tue Aug 27 00:34:04 2024 */
 
 
