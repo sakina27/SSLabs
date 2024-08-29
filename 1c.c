@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 1a.c
+Name : 1c.c
 Author : Sakina Baranwala
 Description : Create the following types of a files using (i) shell command (ii) system call
               c. FIFO (mkfifo Library Function or mknod system call)

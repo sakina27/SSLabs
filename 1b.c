@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 1a.c
+Name : 1b.c
 Author : Sakina Baranwala
 Description : Create the following types of a files using (i) shell command (ii) system call
               b. Hard link (link system call)
