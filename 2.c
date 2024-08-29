@@ -1,7 +1,15 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement: Write a simple program to execute in an infinite loop at the background. Go to /proc directory and
-identify all the process related information in the corresponding proc directory.*/
+/*
+============================================================================
+Name : 2.c
+Author : Sakina Baranwala
+Description : Write a simple program to execute in an infinite loop at the background. Go to /proc directory and
+              identify all the process related information in the corresponding proc directory.
+Date: 26th Aug, 2024.
+============================================================================
+*/
+
+
+
 
 
 
