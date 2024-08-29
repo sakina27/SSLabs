@@ -1,8 +1,13 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 14 Write a program to find the type of a file.
+/*
+============================================================================
+Name : 14.c
+Author : Sakina Baranwala
+Description :Write a program to find the type of a file.
 a. Input should be taken from command line.
-b. program should be able to identify any type of a file.*/
+b. program should be able to identify any type of a file.
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 
 
