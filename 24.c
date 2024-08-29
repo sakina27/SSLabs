@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 24. Write a program to create an orphan process.*/
+/*
+============================================================================
+Name : 24.c
+Author : Sakina Baranwala
+Description :Write a program to create an orphan process.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
