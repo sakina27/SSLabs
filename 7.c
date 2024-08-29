@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No: MT2024130
- * Problem Statement: Write a program to copy file1 into file2 ($cp file1 file2).*/
+/*
+============================================================================
+Name : 7.c
+Author : Sakina Baranwala
+Description :Write a program to copy file1 into file2 ($cp file1 file2). 
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <fcntl.h>
