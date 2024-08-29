@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * reg No - MT2024130
- * Problem Statement : 15. Write a program to display the environmental variable of the user (use environ).*/
+/*
+============================================================================
+Name : 15.c
+Author : Sakina Baranwala
+Description :Write a program to display the environmental variable of the user (use environ).
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 
 
