@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 28. Write a program to get maximum and minimum real time priority. */
+/*
+============================================================================
+Name : 28.c
+Author : Sakina Baranwala
+Description :Write a program to get maximum and minimum real time priority.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
