@@ -21,7 +21,7 @@ int main() {
 
     
     perror("execle failed");
-    return EXIT_FAILURE;
+    return 1;
 }
 
 /*Output:

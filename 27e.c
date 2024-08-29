@@ -22,7 +22,7 @@ int main() {
 
     
     perror("execvp failed");
-    return EXIT_FAILURE;
+    return 1;
 }
 
 

@@ -20,7 +20,7 @@ int main() {
 
     
     perror("execlp failed");
-    return EXIT_FAILURE;
+    return 1;
 }
 
 

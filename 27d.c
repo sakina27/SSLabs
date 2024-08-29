@@ -19,7 +19,7 @@ int main() {
     execv("/bin/ls", args);
 
     perror("execv failed");
-    return EXIT_FAILURE;
+    return 1;
 }
 
 

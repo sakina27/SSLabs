@@ -18,7 +18,7 @@ int main() {
 
     
     perror("execl failed");
-    return EXIT_FAILURE;
+    return 1;
 }
 
 
