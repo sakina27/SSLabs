@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 21. Write a program, call fork and print the parent and child process id.*/
+/*
+============================================================================
+Name : 21.c
+Author : Sakina Baranwala
+Description :Write a program, call fork and print the parent and child process id.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
