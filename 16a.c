@@ -1,9 +1,12 @@
-/*Name: Sakina Baranwala
- * Reg no - MT2024130
- * Problem Statement - 16. Write a program to perform mandatory locking.
-a. Implement write lock*/
-
-
+/*
+============================================================================
+Name : 16a.c
+Author : Sakina Baranwala
+Description :Write a program to perform mandatory locking.
+a. Implement write lock
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 

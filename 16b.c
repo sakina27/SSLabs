@@ -1,7 +1,11 @@
-/*Name:Sakina Baranwala
- * Reg No : MT2024130
- * Problem Statement: 16. Write a program to perform mandatory locking.
+/*
+============================================================================
+Name : 16b.c
+Author : Sakina Baranwala
+Description :Write a program to perform mandatory locking.
 b. Implement read lock
+Date: 29th Aug, 2024.
+============================================================================
 */
 
 #include <stdio.h>
