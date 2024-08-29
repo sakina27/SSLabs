@@ -7,24 +7,40 @@ Close the file when end of file is reached.
 
 
 #include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
 
-int main() {
-    FILE *f;
+int main(int argc, char *argv[]) {
+    int f;
     char buffer[256]; 
 
-    f = fopen("readFile2.txt", "r");
+    f = open(argv[1], O_RDONLY);
 
-    if (f == NULL) {
+    if (f <  0) {
         perror("Error opening file");
         return 1;
     }
 
- 
-    while (fgets(buffer, sizeof(buffer), f) != NULL) {
-        printf("%s", buffer);
+    
+    int bytesRead;
+    char *lineStart = buffer;
+    int i = 0;
+
+    while ((bytesRead = read(f, buffer, sizeof(buffer) - 1)) > 0) {
+        buffer[bytesRead] = '\0'; 
+
+        
+        for (i = 0; i < bytesRead; i++) {
+            if (buffer[i] == '\n' || buffer[i] == '\0') {
+                buffer[i] = '\0';
+                printf("%s\n", lineStart); 
+                lineStart = &buffer[i + 1]; 
+            }
+        }
     }
 
-    fclose(f);
+    close(f);
 
     return 0;
 }
