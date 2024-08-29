@@ -1,10 +1,15 @@
-/*Name: Sakina Baranwala
- * Reg No - Mt2024130
- * Problem Statement: 18. Write a program to perform Record locking.
+/*
+============================================================================
+Name : 18.c
+Author : Sakina Baranwala
+Description :Write a program to perform Record locking.
 a. Implement write lock
 b. Implement read lock
 Create three records in a file. Whenever you access a particular record, first lock it then modify/access
-to avoid race condition.*/
+to avoid race condition.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
