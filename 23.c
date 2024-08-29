@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 23. Write a program to create a Zombie state of the running program.*/
+/*
+============================================================================
+Name : 23.c
+Author : Sakina Baranwala
+Description :Write a program to create a Zombie state of the running program.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
