@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 20. Find out the priority of your running program. Modify the priority with nice command.*/
+/*
+============================================================================
+Name : 20.c
+Author : Sakina Baranwala
+Description :Find out the priority of your running program. Modify the priority with nice command.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
