@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No : MT2024130
- * Problem Statement: Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls*/
+/*
+============================================================================
+Name : 6.c
+Author : Sakina Baranwala
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <unistd.h>
