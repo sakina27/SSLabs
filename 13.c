@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement: 13. Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
-verify whether the data is available within 10 seconds or not (check in $man 2 select).*/
+/*
+============================================================================
+Name : 13.c
+Author : Sakina Baranwala
+Description :Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
+verify whether the data is available within 10 seconds or not (check in $man 2 select).
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 
 
