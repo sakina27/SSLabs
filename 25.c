@@ -25,7 +25,7 @@ int main() {
         pid = fork();
         if (pid < 0) {
             perror("fork failed");
-            exit(EXIT_FAILURE);
+            return 1;
         } else if (pid == 0) {
             printf("Child %d: PID = %d, Parent PID = %d\n", i + 1, getpid(), getppid());
             sleep(2);
@@ -40,7 +40,7 @@ int main() {
 
     if (waited_pid < 0) {
         perror("waitpid failed");
-        exit(EXIT_FAILURE);
+        return 1;
     }
 
     if (WIFEXITED(status)) {
