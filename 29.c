@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement: 29. Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
-SCHED_RR).*/
+/*
+============================================================================
+Name : 29.c
+Author : Sakina Baranwala
+Description :Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
+SCHED_RR).
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
