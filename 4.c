@@ -1,6 +1,11 @@
-/*Name : Sakina Baranwala
- * Reg No : MT2024130
- * Problem Statement: 4. Write a program to open an existing file with read write mode. Try O_EXCL flag also.*/
+/*
+============================================================================
+Name : 4.c
+Author : Sakina Baranwala
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 
 #include <stdio.h>
