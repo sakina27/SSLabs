@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 25. Write a program to create three child processes. The parent should wait for a particular child (use
-waitpid system call).*/
+/*
+============================================================================
+Name : 25.c
+Author : Sakina Baranwala
+Description :Write a program to create three child processes. The parent should wait for a particular child (use
+waitpid system call).
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
