@@ -1,6 +1,11 @@
-/*Name: Sakina Baranwala
- * Reg No : MT2024130
- * Problem Statement : 19. Write a program to find out time taken to execute getpid system call. Use time stamp counter.*/
+/*
+============================================================================
+Name : 19.c
+Author : Sakina Baranwala
+Description :Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
