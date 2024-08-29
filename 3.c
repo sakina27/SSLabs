@@ -1,6 +1,11 @@
-/*Name:Sakina Baranwala
- * Reg No: MT2024130
- * Problem Statement: Write a program to create a file and print the file descriptor value. Use creat ( ) system call*/
+/*
+============================================================================
+Name : 3.c
+Author : Sakina Baranwala
+Description : Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <fcntl.h>
