@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
- * Reg No: MT2024130
- * Problem Statement: 27. Write a program to execute ls -Rl by the following system calls
- * e. execvp */
+/*
+============================================================================
+Name : 27a.c
+Author : Sakina Baranwala
+Description :Write a program to execute ls -Rl by the following system calls
+e. execvp
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
