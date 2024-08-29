@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
-Reg. No: MT2024130
-Problem Statement: Create the following types of a files using (i) shell command (ii) system call
-                  b. Hard Link (link system call)*/
+/*
+============================================================================
+Name : 1a.c
+Author : Sakina Baranwala
+Description : Create the following types of a files using (i) shell command (ii) system call
+              b. Hard link (link system call)
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
@@ -24,7 +29,7 @@ int main() {
 
 /*Output:
  *
- *
+ * Using C code:
  * -rw-rw-r-- 2 sakina sakina     0 Aug 27 11:13 HardLinkTarget.txt
 -rw-rw-r-- 2 sakina sakina     0 Aug 27 11:13 NewHardLink.txt
 
@@ -38,6 +43,13 @@ This is Hard Link File.
 sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ rm HardLinkTarget.txt
 sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ cat NewHardLink.txt
 Hi!
-This is Hard Link File*/.
+This is Hard Link File
+Using Shell Command:
+
+-rw-rw-r-- 2 sakina sakina     0 Aug 29 23:43 HardLinkTarget.txt
+-rw-rw-r-- 2 sakina sakina     0 Aug 29 23:43 NewHardLink2.txt
+
+
+*/.
 
 

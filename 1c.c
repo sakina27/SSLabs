@@ -1,7 +1,12 @@
-/*Name: Sakina Baranwala
-Reg. No: MT2024130
-Problem Statement: Create the following types of a files using (i) shell command (ii) system call
-                 c. FIFO (mkfifo Library Function or mknod system call)*/
+/*
+============================================================================
+Name : 1a.c
+Author : Sakina Baranwala
+Description : Create the following types of a files using (i) shell command (ii) system call
+              c. FIFO (mkfifo Library Function or mknod system call)
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
@@ -25,4 +30,11 @@ int main() {
  *
  * gcc 1c.c -o 1c
 sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./1c
-FIFO created successfully.*/
+FIFO created successfully.
+
+Using Shell Command:
+
+sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ mkfifo /home/sakina/my-repo/my_fifo2
+sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ls -l /home/sakina/my-repo/my_fifo2
+prw-rw-r-- 1 sakina sakina 0 Aug 29 23:46 /home/sakina/my-repo/my_fifo2
+*/
