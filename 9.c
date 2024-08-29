@@ -1,6 +1,8 @@
-/*Name : Sakina Baranwala
- * reg no - MT2024130
- * Problem Statement - 9. Write a program to print the following information about a given file.
+/*
+============================================================================
+Name : 9.c
+Author : Sakina Baranwala
+Description :9. Write a program to print the following information about a given file.
 a. inode
 b. number of hard links
 c. uid
@@ -10,7 +12,10 @@ f. block size
 g. number of blocks
 h. time of last access
 i. time of last modification
-j. time of last change */
+j. time of last change 
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 
 
@@ -19,6 +24,7 @@ j. time of last change */
 #include <time.h>
 
 int main(int argc, char *argv[]) {
+    printf(argv[1]);
     if (argc != 2) {
         printf("Usage: %s readFile.txt\n", argv[0]);
         return 1;
