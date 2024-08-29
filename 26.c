@@ -1,8 +1,13 @@
-/*Name: Sakina Baranwala
- * Reg No - MT2024130
- * Problem Statement - 26. Write a program to execute an executable program.
+/*
+============================================================================
+Name : 26.c
+Author : Sakina Baranwala
+Description :Write a program to execute an executable program.
 a. use some executable program
-b. pass some input to an executable program. (for example execute an executable of $./a.out name)*/
+b. pass some input to an executable program. (for example execute an executable of $./a.out name)
+Date: 29th Aug, 2024.
+============================================================================
+*/
 
 
 
