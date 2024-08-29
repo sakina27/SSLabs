@@ -1,6 +1,11 @@
-/*Name: Sakina baranwala
- * reg no - MT2024130
- * Problem Statement - 12. Write a program to find out the opening mode of a file. Use fcntl.*/
+/*
+============================================================================
+Name : 12.c
+Author : Sakina Baranwala
+Description :Write a program to find out the opening mode of a file. Use fcntl.
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 
 
