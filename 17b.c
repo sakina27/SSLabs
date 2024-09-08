@@ -24,7 +24,7 @@ int main(){
 
 	int fd;
 
-	fd=open("ticket.txt", O_RDONLY);
+	fd=open("ticket.txt", O_RDWR);
 	if (fd==-1){
 		perror("Error in opening the file");
 	  return 1;
