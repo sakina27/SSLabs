@@ -18,8 +18,8 @@ Date: 29th Aug, 2024.
 #include <stdlib.h>
 #include <unistd.h>
 
-int main() {
-    char *args[] = {"/home/sakina/my-repo/ninth", "readFile.txt", NULL};
+int main(int argc, char *argv[]) {
+    char *args[] = {argv[1], argv[2], NULL};
 
     // Execute the external program
     if (execvp(args[0], args) == -1) {
@@ -39,8 +39,8 @@ int main() {
  *
  * sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ vim 26.c
 sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ gcc 26.c -o 26
-sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./26
-Inode: 1844854
+sakina@sakina-VivoBook-ASUSLaptop-X515EA-X515EA:~/my-repo$ ./26 ninth readFile.txt
+readFile.txtInode: 1844854
 Number of hard links: 1
 UID: 1000
 GID: 1000
@@ -49,5 +49,6 @@ Block size: 4096 bytes
 Number of blocks: 8
 Time of last access: Thu Aug 29 08:41:04 2024
 Time of last modification: Tue Aug 27 00:28:05 2024
-Time of last change: Tue Aug 27 00:34:04 2024
+Time of last change: Sun Sep  8 07:52:41 2024
+
 */
